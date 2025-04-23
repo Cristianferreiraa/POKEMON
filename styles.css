@@ -44,14 +44,26 @@ body {
     margin-bottom: 6px;
 }
 
-/* Colors específics per tipus */
-.pokemon-type.planta {
-    color: #4CAF50; /* verd per a Planta */
-}
-
-.pokemon-type.veneno {
-    color: #9b59b6; /* morat per a Venen */
-}
+/* Estils per a tots els tipus de Pokémon */
+.pokemon-type.planta    { color: #4CAF50; }
+.pokemon-type.veneno    { color: #9b59b6; }
+.pokemon-type.fuego     { color: #e74c3c; }
+.pokemon-type.agua      { color: #3498db; }
+.pokemon-type.electrico { color: #f1c40f; }
+.pokemon-type.normal    { color: #95a5a6; }
+.pokemon-type.volador   { color: #81d4fa; }
+.pokemon-type.roca      { color: #795548; }
+.pokemon-type.tierra    { color: #d2b48c; }
+.pokemon-type.psiquico  { color: #ff69b4; }
+.pokemon-type.hielo     { color: #00bcd4; }
+.pokemon-type.bicho     { color: #8bc34a; }
+.pokemon-type.lucha     { color: #e67e22; }
+.pokemon-type.fantasma  { color: #6a1b9a; }
+.pokemon-type.dragón    { color: #3f51b5; }
+.pokemon-type.siniestro { color: #2d3436; }
+.pokemon-type.acero     { color: #b0bec5; }
+.pokemon-type.hada      { color: #f48fb1; }
+.pokemon-type.calvo     { color: #332857; }
 
 .pokemon-description {
     font-size: 14px;

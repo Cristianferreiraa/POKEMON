@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.pokemon-card {
+    background-color: #e0e0e0;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 24px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.pokemon-image {
+    max-width: 100%;
+    border-radius: 12px;
+    margin-bottom: 16px;
+}
+
+.pokemon-info {
+    background-color: #ccf5cc;
+    border-radius: 12px;
+    padding: 16px;
+    margin-top: 12px;
+}
+
+.pokemon-name {
+    font-family: 'Verdana', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 8px;
+}
+
+.pokemon-type {
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+/* Colors específics per tipus */
+.pokemon-type.planta {
+    color: #4CAF50; /* verd per a Planta */
+}
+
+.pokemon-type.veneno {
+    color: #9b59b6; /* morat per a Venen */
+}
+
+.pokemon-description {
+    font-size: 14px;
+    color: #7f8c8d;
+}
